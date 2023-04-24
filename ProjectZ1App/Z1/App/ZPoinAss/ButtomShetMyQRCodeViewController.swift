@@ -12,6 +12,9 @@ class ButtomShetMyQRCodeViewController: UIViewController {
     @IBOutlet weak var cardLoyaltyBalance: UIView!
     @IBOutlet weak var cardMainBalance: UIView!
     
+    @IBOutlet weak var shadowView1: UIView!
+    @IBOutlet weak var shadowView2: UIView!
+    
     var hasSetPointOrigin = false
     var pointOrigin: CGPoint?
     @IBOutlet var viewButtomShet: UIView!
@@ -23,15 +26,28 @@ class ButtomShetMyQRCodeViewController: UIViewController {
         let panGesture = UIPanGestureRecognizer(target: self, action: #selector(panGestureRecognizerAction))
         view.addGestureRecognizer(panGesture)
         
-        cardLoyaltyBalance.dropShadow()
-        cardMainBalance.dropShadow()
-        cardLoyaltyBalance.backgroundColor = .white
-        cardMainBalance.backgroundColor = .white
-        cardLoyaltyBalance.layer.cornerRadius = 10
-       
-        cardLoyaltyBalance.layer.masksToBounds = false
+        [shadowView1, shadowView2].forEach {
+            $0?.layer.cornerRadius = 10
+            $0?.dropShadow()
+        }
 
-        cardMainBalance.layer.cornerRadius = 10
+        [cardMainBalance, cardLoyaltyBalance].forEach {
+            $0?.backgroundColor = .white
+            $0?.layer.cornerRadius = 10.0
+            $0?.clipsToBounds = true
+        }
+        
+//        cardLoyaltyBalance.dropShadow()
+//        cardMainBalance.dropShadow()
+        
+        
+//        cardLoyaltyBalance.backgroundColor = .white
+//        cardMainBalance.backgroundColor = .white
+//        cardLoyaltyBalance.layer.cornerRadius = 10
+       
+//        cardLoyaltyBalance.layer.masksToBounds = false
+
+//        cardMainBalance.layer.cornerRadius = 10
         viewButtomShet.roundCorners(.allCorners, radius: 10)
 //        subscribeButton.roundCorners(.allCorners, radius: 10)
     }
