@@ -9,21 +9,77 @@
 /* Begin PBXBuildFile section */
 		5F1A5E7729EE443B00E3025E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7629EE443B00E3025E /* AppDelegate.swift */; };
 		5F1A5E7929EE443B00E3025E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */; };
-		5F1A5E7B29EE443B00E3025E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7A29EE443B00E3025E /* ViewController.swift */; };
-		5F1A5E7E29EE443B00E3025E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7C29EE443B00E3025E /* Main.storyboard */; };
 		5F1A5E8029EE443C00E3025E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7F29EE443C00E3025E /* Assets.xcassets */; };
-		5F1A5E8329EE443C00E3025E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5E8129EE443C00E3025E /* LaunchScreen.storyboard */; };
+		5F1A5ECC29EE49FE00E3025E /* SlideHomePageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EA629EE49FD00E3025E /* SlideHomePageCollectionViewCell.swift */; };
+		5F1A5ECD29EE49FE00E3025E /* MiniAppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EA729EE49FD00E3025E /* MiniAppCollectionViewCell.swift */; };
+		5F1A5ECE29EE49FE00E3025E /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EA829EE49FD00E3025E /* CardCollectionViewCell.swift */; };
+		5F1A5ECF29EE49FE00E3025E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EAA29EE49FD00E3025E /* HomeViewController.swift */; };
+		5F1A5ED029EE49FE00E3025E /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EAB29EE49FD00E3025E /* HomeViewController.storyboard */; };
+		5F1A5ED129EE49FE00E3025E /* MiniAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EAD29EE49FD00E3025E /* MiniAppModel.swift */; };
+		5F1A5ED229EE49FE00E3025E /* FavoritesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB029EE49FD00E3025E /* FavoritesViewController.storyboard */; };
+		5F1A5ED329EE49FE00E3025E /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB129EE49FD00E3025E /* FavoritesViewController.swift */; };
+		5F1A5ED429EE49FE00E3025E /* ScanViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB429EE49FD00E3025E /* ScanViewController.storyboard */; };
+		5F1A5ED529EE49FE00E3025E /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB529EE49FD00E3025E /* ScanViewController.swift */; };
+		5F1A5ED629EE49FE00E3025E /* ZpoinViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB829EE49FD00E3025E /* ZpoinViewController.storyboard */; };
+		5F1A5ED729EE49FE00E3025E /* ZpoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EB929EE49FD00E3025E /* ZpoinViewController.swift */; };
+		5F1A5ED829EE49FE00E3025E /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EBC29EE49FD00E3025E /* MeViewController.swift */; };
+		5F1A5ED929EE49FE00E3025E /* MeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EBD29EE49FD00E3025E /* MeViewController.storyboard */; };
+		5F1A5EDA29EE49FE00E3025E /* MainTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EBF29EE49FD00E3025E /* MainTabbarViewController.swift */; };
+		5F1A5EDB29EE49FE00E3025E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EC229EE49FD00E3025E /* OnboardingCollectionViewCell.swift */; };
+		5F1A5EDC29EE49FE00E3025E /* OnboardingScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EC329EE49FD00E3025E /* OnboardingScreenViewController.storyboard */; };
+		5F1A5EDD29EE49FE00E3025E /* OnboardingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EC429EE49FD00E3025E /* OnboardingScreenViewController.swift */; };
+		5F1A5EDE29EE49FE00E3025E /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EC629EE49FD00E3025E /* OnboardingModel.swift */; };
+		5F1A5EEF29EE4A3E00E3025E /* ShadowCardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EE829EE4A3E00E3025E /* ShadowCardUIView.swift */; };
+		5F1A5EF029EE4A3E00E3025E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EEA29EE4A3E00E3025E /* UIView+Extension.swift */; };
+		5F1A5EF129EE4A3E00E3025E /* ShadowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EEB29EE4A3E00E3025E /* ShadowUIView.swift */; };
+		5F1A5EF929EE4A5F00E3025E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EF529EE4A5F00E3025E /* SplashScreenViewController.swift */; };
+		5F1A5EFA29EE4A5F00E3025E /* SplashScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EF629EE4A5F00E3025E /* SplashScreenViewController.storyboard */; };
+		5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */; };
+		5F64ED2D29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */; };
+		5F64ED2F29F316B6005B05DE /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64ED2E29F316B6005B05DE /* PresentationController.swift */; };
+		5F77B75B29EE8595006B9043 /* MyQRViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */; };
+		5F77B75D29EE85A0006B9043 /* MyQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */; };
+		D2C658ACDA8E5E29C334E48E /* Pods_ProjectZ1App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5570F7E1F3B51C63A5464120 /* Pods_ProjectZ1App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5570F7E1F3B51C63A5464120 /* Pods_ProjectZ1App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectZ1App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1A5E7329EE443B00E3025E /* ProjectZ1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectZ1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1A5E7629EE443B00E3025E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F1A5E7A29EE443B00E3025E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F1A5E7D29EE443B00E3025E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1A5E7F29EE443C00E3025E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F1A5E8229EE443C00E3025E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1A5E8429EE443C00E3025E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1A5EA629EE49FD00E3025E /* SlideHomePageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideHomePageCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F1A5EA729EE49FD00E3025E /* MiniAppCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniAppCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F1A5EA829EE49FD00E3025E /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F1A5EAA29EE49FD00E3025E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F1A5EAB29EE49FD00E3025E /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EAD29EE49FD00E3025E /* MiniAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniAppModel.swift; sourceTree = "<group>"; };
+		5F1A5EB029EE49FD00E3025E /* FavoritesViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FavoritesViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EB129EE49FD00E3025E /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		5F1A5EB429EE49FD00E3025E /* ScanViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScanViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EB529EE49FD00E3025E /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		5F1A5EB829EE49FD00E3025E /* ZpoinViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZpoinViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EB929EE49FD00E3025E /* ZpoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZpoinViewController.swift; sourceTree = "<group>"; };
+		5F1A5EBC29EE49FD00E3025E /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		5F1A5EBD29EE49FD00E3025E /* MeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MeViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EBF29EE49FD00E3025E /* MainTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbarViewController.swift; sourceTree = "<group>"; };
+		5F1A5EC229EE49FD00E3025E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		5F1A5EC329EE49FD00E3025E /* OnboardingScreenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OnboardingScreenViewController.storyboard; sourceTree = "<group>"; };
+		5F1A5EC429EE49FD00E3025E /* OnboardingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingScreenViewController.swift; sourceTree = "<group>"; };
+		5F1A5EC629EE49FD00E3025E /* OnboardingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		5F1A5EE829EE4A3E00E3025E /* ShadowCardUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardUIView.swift; sourceTree = "<group>"; };
+		5F1A5EEA29EE4A3E00E3025E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5F1A5EEB29EE4A3E00E3025E /* ShadowUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowUIView.swift; sourceTree = "<group>"; };
+		5F1A5EF529EE4A5F00E3025E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "\bSplashScreenViewController.swift"; sourceTree = "<group>"; };
+		5F1A5EF629EE4A5F00E3025E /* SplashScreenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplashScreenViewController.storyboard; sourceTree = "<group>"; };
+		5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtomShetMyQRCodeViewController.xib; sourceTree = "<group>"; };
+		5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomShetMyQRCodeViewController.swift; sourceTree = "<group>"; };
+		5F64ED2E29F316B6005B05DE /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyQRViewController.storyboard; sourceTree = "<group>"; };
+		5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQRViewController.swift; sourceTree = "<group>"; };
+		CCD4A4E4D322C432FF34050D /* Pods-ProjectZ1App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectZ1App.release.xcconfig"; path = "Target Support Files/Pods-ProjectZ1App/Pods-ProjectZ1App.release.xcconfig"; sourceTree = "<group>"; };
+		E93FA4A2ABF05431E9609E15 /* Pods-ProjectZ1App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectZ1App.debug.xcconfig"; path = "Target Support Files/Pods-ProjectZ1App/Pods-ProjectZ1App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +87,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2C658ACDA8E5E29C334E48E /* Pods_ProjectZ1App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36199AAF8356A669959D061E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E93FA4A2ABF05431E9609E15 /* Pods-ProjectZ1App.debug.xcconfig */,
+				CCD4A4E4D322C432FF34050D /* Pods-ProjectZ1App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5F1A5E6A29EE443B00E3025E = {
 			isa = PBXGroup;
 			children = (
 				5F1A5E7529EE443B00E3025E /* ProjectZ1App */,
 				5F1A5E7429EE443B00E3025E /* Products */,
+				36199AAF8356A669959D061E /* Pods */,
+				AE7B751E035773196ADA2AA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +124,313 @@
 		5F1A5E7529EE443B00E3025E /* ProjectZ1App */ = {
 			isa = PBXGroup;
 			children = (
-				5F1A5E7629EE443B00E3025E /* AppDelegate.swift */,
-				5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */,
-				5F1A5E7A29EE443B00E3025E /* ViewController.swift */,
-				5F1A5E7C29EE443B00E3025E /* Main.storyboard */,
+				5F1A5E8A29EE445600E3025E /* Z1 */,
 				5F1A5E7F29EE443C00E3025E /* Assets.xcassets */,
-				5F1A5E8129EE443C00E3025E /* LaunchScreen.storyboard */,
 				5F1A5E8429EE443C00E3025E /* Info.plist */,
 			);
 			path = ProjectZ1App;
+			sourceTree = "<group>";
+		};
+		5F1A5E8A29EE445600E3025E /* Z1 */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EC729EE49FD00E3025E /* Coordinator */,
+				5F1A5EA329EE49FD00E3025E /* App */,
+				5F1A5EFC29EE4B1500E3025E /* Firebase */,
+				5F1A5EFD29EE4B3600E3025E /* Config */,
+				5F1A5E8B29EE446900E3025E /* Resources */,
+				5F1A5F0129EE4B6800E3025E /* Binding */,
+				5F1A5F0229EE4B7B00E3025E /* ThirdParty */,
+				5F1A5F0329EE4B8C00E3025E /* WS */,
+				5F1A5EE729EE4A3E00E3025E /* Utils */,
+			);
+			path = Z1;
+			sourceTree = "<group>";
+		};
+		5F1A5E8B29EE446900E3025E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EF429EE4A5F00E3025E /* Storyboards */,
+				5F1A5F0029EE4B5900E3025E /* Colors */,
+				5F1A5EFF29EE4B5200E3025E /* Fonts */,
+				5F1A5EFE29EE4B4700E3025E /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F1A5EA329EE49FD00E3025E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5F77B75929EE8565006B9043 /* ZPoinAss */,
+				5F1A5EA429EE49FD00E3025E /* Home */,
+				5F1A5EAE29EE49FD00E3025E /* Favorites */,
+				5F1A5EB229EE49FD00E3025E /* Scan */,
+				5F1A5EB629EE49FD00E3025E /* ZPOIN */,
+				5F1A5EBA29EE49FD00E3025E /* Me */,
+				5F1A5EBE29EE49FD00E3025E /* Main */,
+				5F1A5EC029EE49FD00E3025E /* Onboarding */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5F1A5EA429EE49FD00E3025E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EA529EE49FD00E3025E /* Component */,
+				5F1A5EA929EE49FD00E3025E /* Screen */,
+				5F1A5EAC29EE49FD00E3025E /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5F1A5EA529EE49FD00E3025E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EA629EE49FD00E3025E /* SlideHomePageCollectionViewCell.swift */,
+				5F1A5EA729EE49FD00E3025E /* MiniAppCollectionViewCell.swift */,
+				5F1A5EA829EE49FD00E3025E /* CardCollectionViewCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5F1A5EA929EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EAA29EE49FD00E3025E /* HomeViewController.swift */,
+				5F1A5EAB29EE49FD00E3025E /* HomeViewController.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EAC29EE49FD00E3025E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EAD29EE49FD00E3025E /* MiniAppModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F1A5EAE29EE49FD00E3025E /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EAF29EE49FD00E3025E /* Screen */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5F1A5EAF29EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EB029EE49FD00E3025E /* FavoritesViewController.storyboard */,
+				5F1A5EB129EE49FD00E3025E /* FavoritesViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EB229EE49FD00E3025E /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EB329EE49FD00E3025E /* Screen */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		5F1A5EB329EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EB429EE49FD00E3025E /* ScanViewController.storyboard */,
+				5F1A5EB529EE49FD00E3025E /* ScanViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EB629EE49FD00E3025E /* ZPOIN */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EB729EE49FD00E3025E /* Screen */,
+			);
+			path = ZPOIN;
+			sourceTree = "<group>";
+		};
+		5F1A5EB729EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EB829EE49FD00E3025E /* ZpoinViewController.storyboard */,
+				5F1A5EB929EE49FD00E3025E /* ZpoinViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EBA29EE49FD00E3025E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EBB29EE49FD00E3025E /* Screen */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		5F1A5EBB29EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EBC29EE49FD00E3025E /* MeViewController.swift */,
+				5F1A5EBD29EE49FD00E3025E /* MeViewController.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EBE29EE49FD00E3025E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EBF29EE49FD00E3025E /* MainTabbarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5F1A5EC029EE49FD00E3025E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EC129EE49FD00E3025E /* Screen */,
+				5F1A5EC529EE49FD00E3025E /* Model */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5F1A5EC129EE49FD00E3025E /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EC229EE49FD00E3025E /* OnboardingCollectionViewCell.swift */,
+				5F1A5EC329EE49FD00E3025E /* OnboardingScreenViewController.storyboard */,
+				5F1A5EC429EE49FD00E3025E /* OnboardingScreenViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		5F1A5EC529EE49FD00E3025E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EC629EE49FD00E3025E /* OnboardingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F1A5EC729EE49FD00E3025E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5E7629EE443B00E3025E /* AppDelegate.swift */,
+				5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5F1A5EE729EE4A3E00E3025E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EE829EE4A3E00E3025E /* ShadowCardUIView.swift */,
+				5F1A5EE929EE4A3E00E3025E /* Extension */,
+				5F1A5EEB29EE4A3E00E3025E /* ShadowUIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F1A5EE929EE4A3E00E3025E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EEA29EE4A3E00E3025E /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5F1A5EF429EE4A5F00E3025E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5F1A5EF529EE4A5F00E3025E /* SplashScreenViewController.swift */,
+				5F1A5EF629EE4A5F00E3025E /* SplashScreenViewController.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5F1A5EFC29EE4B1500E3025E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5F1A5EFD29EE4B3600E3025E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5F1A5EFE29EE4B4700E3025E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5F1A5EFF29EE4B5200E3025E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5F1A5F0029EE4B5900E3025E /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		5F1A5F0129EE4B6800E3025E /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		5F1A5F0229EE4B7B00E3025E /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		5F1A5F0329EE4B8C00E3025E /* WS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WS;
+			sourceTree = "<group>";
+		};
+		5F77B75929EE8565006B9043 /* ZPoinAss */ = {
+			isa = PBXGroup;
+			children = (
+				5FCB577D29F39F9D009DE3E9 /* Models */,
+				5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */,
+				5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */,
+				5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */,
+				5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */,
+				5F64ED2E29F316B6005B05DE /* PresentationController.swift */,
+			);
+			path = ZPoinAss;
+			sourceTree = "<group>";
+		};
+		5FCB577D29F39F9D009DE3E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE7B751E035773196ADA2AA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5570F7E1F3B51C63A5464120 /* Pods_ProjectZ1App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +440,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F1A5E8729EE443C00E3025E /* Build configuration list for PBXNativeTarget "ProjectZ1App" */;
 			buildPhases = (
+				369AF3829EDF325B35CC9191 /* [CP] Check Pods Manifest.lock */,
 				5F1A5E6F29EE443B00E3025E /* Sources */,
 				5F1A5E7029EE443B00E3025E /* Frameworks */,
 				5F1A5E7129EE443B00E3025E /* Resources */,
@@ -125,45 +492,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1A5E8329EE443C00E3025E /* LaunchScreen.storyboard in Resources */,
+				5F1A5EFA29EE4A5F00E3025E /* SplashScreenViewController.storyboard in Resources */,
+				5F77B75B29EE8595006B9043 /* MyQRViewController.storyboard in Resources */,
+				5F1A5EDC29EE49FE00E3025E /* OnboardingScreenViewController.storyboard in Resources */,
+				5F1A5ED429EE49FE00E3025E /* ScanViewController.storyboard in Resources */,
+				5F1A5ED229EE49FE00E3025E /* FavoritesViewController.storyboard in Resources */,
+				5F1A5ED929EE49FE00E3025E /* MeViewController.storyboard in Resources */,
+				5F1A5ED629EE49FE00E3025E /* ZpoinViewController.storyboard in Resources */,
 				5F1A5E8029EE443C00E3025E /* Assets.xcassets in Resources */,
-				5F1A5E7E29EE443B00E3025E /* Main.storyboard in Resources */,
+				5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewController.xib in Resources */,
+				5F1A5ED029EE49FE00E3025E /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		369AF3829EDF325B35CC9191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectZ1App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F1A5E6F29EE443B00E3025E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1A5E7B29EE443B00E3025E /* ViewController.swift in Sources */,
+				5F1A5ED829EE49FE00E3025E /* MeViewController.swift in Sources */,
+				5F1A5EDD29EE49FE00E3025E /* OnboardingScreenViewController.swift in Sources */,
+				5F1A5EF129EE4A3E00E3025E /* ShadowUIView.swift in Sources */,
+				5F64ED2F29F316B6005B05DE /* PresentationController.swift in Sources */,
+				5F1A5EDB29EE49FE00E3025E /* OnboardingCollectionViewCell.swift in Sources */,
+				5F1A5ECC29EE49FE00E3025E /* SlideHomePageCollectionViewCell.swift in Sources */,
+				5F1A5EDA29EE49FE00E3025E /* MainTabbarViewController.swift in Sources */,
+				5F77B75D29EE85A0006B9043 /* MyQRViewController.swift in Sources */,
+				5F64ED2D29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift in Sources */,
+				5F1A5EEF29EE4A3E00E3025E /* ShadowCardUIView.swift in Sources */,
+				5F1A5ED529EE49FE00E3025E /* ScanViewController.swift in Sources */,
+				5F1A5ECF29EE49FE00E3025E /* HomeViewController.swift in Sources */,
+				5F1A5ECD29EE49FE00E3025E /* MiniAppCollectionViewCell.swift in Sources */,
+				5F1A5ECE29EE49FE00E3025E /* CardCollectionViewCell.swift in Sources */,
+				5F1A5ED729EE49FE00E3025E /* ZpoinViewController.swift in Sources */,
+				5F1A5ED129EE49FE00E3025E /* MiniAppModel.swift in Sources */,
+				5F1A5EF029EE4A3E00E3025E /* UIView+Extension.swift in Sources */,
 				5F1A5E7729EE443B00E3025E /* AppDelegate.swift in Sources */,
+				5F1A5ED329EE49FE00E3025E /* FavoritesViewController.swift in Sources */,
+				5F1A5EDE29EE49FE00E3025E /* OnboardingModel.swift in Sources */,
+				5F1A5EF929EE4A5F00E3025E /* SplashScreenViewController.swift in Sources */,
 				5F1A5E7929EE443B00E3025E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5F1A5E7C29EE443B00E3025E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F1A5E7D29EE443B00E3025E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5F1A5E8129EE443C00E3025E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F1A5E8229EE443C00E3025E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F1A5E8529EE443C00E3025E /* Debug */ = {
@@ -282,6 +681,7 @@
 		};
 		5F1A5E8829EE443C00E3025E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E93FA4A2ABF05431E9609E15 /* Pods-ProjectZ1App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +692,6 @@
 				INFOPLIST_FILE = ProjectZ1App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +709,7 @@
 		};
 		5F1A5E8929EE443C00E3025E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD4A4E4D322C432FF34050D /* Pods-ProjectZ1App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +720,6 @@
 				INFOPLIST_FILE = ProjectZ1App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

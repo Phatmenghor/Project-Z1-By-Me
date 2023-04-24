@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreenViewController" id="BYZ-38-t0r" customClass="SplashScreenViewController" customModule="Z1_App_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Z1Logo" translatesAutoresizingMaskIntoConstraints="NO" id="5AN-Zx-hqJ">
+                                <rect key="frame" x="106.66666666666669" y="336" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="BP6-PK-x70"/>
+                                    <constraint firstAttribute="width" constant="180" id="cjL-ts-Mqz"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Z1 By Menghor" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5e-OE-B0F">
+                                <rect key="frame" x="20" y="161.66666666666666" width="353" height="24.333333333333343"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="21"/>
+                                <color key="textColor" red="0.26546609399999999" green="0.71845215559999998" blue="0.88212019210000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="scB-bm-6v6">
+                                <rect key="frame" x="176.66666666666666" y="666.33333333333337" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="8xb-bI-hlW"/>
+                                    <constraint firstAttribute="height" constant="40" id="HXo-zM-qkc"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy Your Day Bruzz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6S-Ne-c2b">
+                                <rect key="frame" x="104.33333333333333" y="786.33333333333337" width="184.66666666666669" height="21.666666666666629"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
+                                <color key="textColor" red="0.26546609399999999" green="0.71845215559999998" blue="0.88212019210000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p6S-Ne-c2b" secondAttribute="bottom" constant="10" id="3fU-4i-6CF"/>
+                            <constraint firstItem="5AN-Zx-hqJ" firstAttribute="top" secondItem="W5e-OE-B0F" secondAttribute="bottom" constant="150" id="9Fp-7f-qaE"/>
+                            <constraint firstItem="5AN-Zx-hqJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="btX-Z0-Ccl"/>
+                            <constraint firstItem="scB-bm-6v6" firstAttribute="centerX" secondItem="5AN-Zx-hqJ" secondAttribute="centerX" id="c3N-dZ-JfY"/>
+                            <constraint firstItem="W5e-OE-B0F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hYA-JG-rbM"/>
+                            <constraint firstItem="p6S-Ne-c2b" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i14-gD-5jd"/>
+                            <constraint firstItem="5AN-Zx-hqJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="moX-WA-9Q7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5e-OE-B0F" secondAttribute="trailing" constant="20" id="rn3-Gl-JHS"/>
+                            <constraint firstItem="p6S-Ne-c2b" firstAttribute="top" secondItem="scB-bm-6v6" secondAttribute="bottom" constant="80" id="tXD-h3-mMd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="p6S-Ne-c2b" id="2Gd-AH-AgK"/>
+                        <outlet property="textWelcomeLabel" destination="W5e-OE-B0F" id="7Md-67-jLw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Z1Logo" width="36" height="36"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
