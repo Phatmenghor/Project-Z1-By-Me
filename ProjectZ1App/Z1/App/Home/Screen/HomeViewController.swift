@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: Z1BaseViewController {
     @IBOutlet var slidecollectionView: UICollectionView!
     @IBOutlet var miniAppCollectionView: UICollectionView!
     @IBOutlet var saleCardCollectionView: UICollectionView!
@@ -31,6 +31,8 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        APICaller().getDataAPIZpoin()
 
         configureNavbar()
         slidecollectionView.delegate = self
@@ -90,11 +92,13 @@ class HomeViewController: UIViewController {
     }
 
     @objc func logoutUser() {
-        guard let homeViewController = UIStoryboard(name: "MyQRViewController", bundle: .main).instantiateViewController(withIdentifier: "MyQRViewController") as? MyQRViewController else {
+        guard let assignmentViewController = UIStoryboard(name: "ZPoinAssignmentViewController", bundle: .main).instantiateViewController(withIdentifier: "ZPoinAssignmentViewController") as? ZPoinAssignmentViewController else {
             fatalError("Unable to Instantiate Quotes View Controller")
         }
+        
+        assignmentViewController.hidesBottomBarWhenPushed = true
 
-        navigationController?.pushViewController(homeViewController, animated: true)
+        navigationController?.pushViewController(assignmentViewController, animated: true)
         print("clicked")
     }
 }

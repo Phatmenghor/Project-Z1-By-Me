@@ -8,12 +8,18 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtomShetMyQRCodeViewController" customModule="ProjectZ1App" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner">
             <connections>
+                <outlet property="accountBalance" destination="ePW-Zg-n8g" id="dTu-0O-0p9"/>
+                <outlet property="buttomUIView" destination="SiW-sE-jI4" id="nKP-Er-sd7"/>
                 <outlet property="cardLoyaltyBalance" destination="qzy-k2-kcZ" id="TAE-Kr-dbf"/>
                 <outlet property="cardMainBalance" destination="xIc-4t-s9U" id="sOs-3N-mN7"/>
+                <outlet property="moneyAccountBalance" destination="Vk7-xa-vnz" id="hVh-fh-Tea"/>
+                <outlet property="numberAccountBalance" destination="hOi-g8-ZqT" id="EAy-ax-mVT"/>
+                <outlet property="ruleAccountBalance" destination="st1-Ow-mEr" id="SfY-rJ-20X"/>
                 <outlet property="shadowView1" destination="E6Z-p5-Crn" id="OYY-XW-ITE"/>
                 <outlet property="shadowView2" destination="SiW-sE-jI4" id="gyR-dp-681"/>
+                <outlet property="topUIView" destination="E6Z-p5-Crn" id="fos-w8-XNe"/>
                 <outlet property="view" destination="iN0-l3-epB" id="4TM-yq-dzQ"/>
                 <outlet property="viewButtomShet" destination="iN0-l3-epB" id="Mt9-U4-LMB"/>
             </connections>
@@ -25,7 +31,7 @@
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E6Z-p5-Crn" userLabel="shadowView1">
                     <rect key="frame" x="20" y="271" width="421" height="87"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor"/>
                 </view>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzy-k2-kcZ" userLabel="View1">
                     <rect key="frame" x="20" y="271" width="421" height="87"/>
@@ -119,7 +125,7 @@
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SiW-sE-jI4" userLabel="shadowView2">
                     <rect key="frame" x="20" y="376" width="421" height="87"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <color key="backgroundColor" systemColor="tintColor"/>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIc-4t-s9U" userLabel="View2">
                     <rect key="frame" x="20" y="376" width="421" height="87"/>
@@ -256,9 +262,6 @@
     <resources>
         <image name="MoreButton" width="40.666667938232422" height="40.333332061767578"/>
         <image name="Radio" width="24" height="24"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
@@ -267,6 +270,9 @@
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

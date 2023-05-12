@@ -1,9 +1,3 @@
-//
-//  PresentationController.swift
-//  ProjectZ1App
-//
-//  Created by PHAT MENGHOR on 4/22/23.
-
 import UIKit
 
 class PresentationController: UIPresentationController {
@@ -22,9 +16,9 @@ class PresentationController: UIPresentationController {
   }
   
   override var frameOfPresentedViewInContainerView: CGRect {
-      CGRect(origin: CGPoint(x: 0, y: self.containerView!.frame.height * 0.65),
+      CGRect(origin: CGPoint(x: 0, y: self.containerView!.frame.height * 0.60),
              size: CGSize(width: self.containerView!.frame.width, height: self.containerView!.frame.height *
-                          0.35))
+              0.40))
   }
 
   override func presentationTransitionWillBegin() {

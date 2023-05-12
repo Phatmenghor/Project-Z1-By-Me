@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0C9A4E29F6315D00EDB61F /* MyQRViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0C9A4D29F6315D00EDB61F /* MyQRViewModel.swift */; };
+		5F114C6A2A01FD5F0027D1BB /* ButtomShetMyQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F114C692A01FD5F0027D1BB /* ButtomShetMyQRCodeViewController.xib */; };
+		5F114C6F2A020A620027D1BB /* ZpoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F114C6D2A020A620027D1BB /* ZpoinTableViewCell.swift */; };
+		5F114C702A020A620027D1BB /* ZpoinTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F114C6E2A020A620027D1BB /* ZpoinTableViewCell.xib */; };
+		5F114C732A0210620027D1BB /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F114C722A0210620027D1BB /* PresentationController.swift */; };
 		5F1A5E7729EE443B00E3025E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7629EE443B00E3025E /* AppDelegate.swift */; };
 		5F1A5E7929EE443B00E3025E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */; };
 		5F1A5E8029EE443C00E3025E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5E7F29EE443C00E3025E /* Assets.xcassets */; };
@@ -34,16 +39,22 @@
 		5F1A5EF129EE4A3E00E3025E /* ShadowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EEB29EE4A3E00E3025E /* ShadowUIView.swift */; };
 		5F1A5EF929EE4A5F00E3025E /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A5EF529EE4A5F00E3025E /* SplashScreenViewController.swift */; };
 		5F1A5EFA29EE4A5F00E3025E /* SplashScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1A5EF629EE4A5F00E3025E /* SplashScreenViewController.storyboard */; };
-		5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */; };
+		5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewControllerdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewControllerdd.xib */; };
 		5F64ED2D29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */; };
-		5F64ED2F29F316B6005B05DE /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F64ED2E29F316B6005B05DE /* PresentationController.swift */; };
-		5F77B75B29EE8595006B9043 /* MyQRViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */; };
-		5F77B75D29EE85A0006B9043 /* MyQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */; };
+		5F857BF42A0C984E00721ABD /* Z1BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F857BF32A0C984E00721ABD /* Z1BaseViewController.swift */; };
+		5F857BF72A0C9A0D00721ABD /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F857BF62A0C9A0D00721ABD /* APICaller.swift */; };
+		5F860CC02A00DE4B00B0DB87 /* ZPoinAssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F860CBF2A00DE4B00B0DB87 /* ZPoinAssignmentViewController.swift */; };
+		5F860CC22A00DE6C00B0DB87 /* ZPoinAssignmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F860CC12A00DE6C00B0DB87 /* ZPoinAssignmentViewController.storyboard */; };
 		D2C658ACDA8E5E29C334E48E /* Pods_ProjectZ1App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5570F7E1F3B51C63A5464120 /* Pods_ProjectZ1App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5570F7E1F3B51C63A5464120 /* Pods_ProjectZ1App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectZ1App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0C9A4D29F6315D00EDB61F /* MyQRViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyQRViewModel.swift; path = ProjectZ1App/Z1/App/ZPoinAssignment/Model/MyQRViewModel.swift; sourceTree = SOURCE_ROOT; };
+		5F114C692A01FD5F0027D1BB /* ButtomShetMyQRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtomShetMyQRCodeViewController.xib; sourceTree = "<group>"; };
+		5F114C6D2A020A620027D1BB /* ZpoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZpoinTableViewCell.swift; sourceTree = "<group>"; };
+		5F114C6E2A020A620027D1BB /* ZpoinTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZpoinTableViewCell.xib; sourceTree = "<group>"; };
+		5F114C722A0210620027D1BB /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		5F1A5E7329EE443B00E3025E /* ProjectZ1App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectZ1App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1A5E7629EE443B00E3025E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,11 +84,12 @@
 		5F1A5EEB29EE4A3E00E3025E /* ShadowUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowUIView.swift; sourceTree = "<group>"; };
 		5F1A5EF529EE4A5F00E3025E /* SplashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "\bSplashScreenViewController.swift"; sourceTree = "<group>"; };
 		5F1A5EF629EE4A5F00E3025E /* SplashScreenViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplashScreenViewController.storyboard; sourceTree = "<group>"; };
-		5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtomShetMyQRCodeViewController.xib; sourceTree = "<group>"; };
+		5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewControllerdd.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtomShetMyQRCodeViewControllerdd.xib; sourceTree = "<group>"; };
 		5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomShetMyQRCodeViewController.swift; sourceTree = "<group>"; };
-		5F64ED2E29F316B6005B05DE /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
-		5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyQRViewController.storyboard; sourceTree = "<group>"; };
-		5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQRViewController.swift; sourceTree = "<group>"; };
+		5F857BF32A0C984E00721ABD /* Z1BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Z1BaseViewController.swift; sourceTree = "<group>"; };
+		5F857BF62A0C9A0D00721ABD /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		5F860CBF2A00DE4B00B0DB87 /* ZPoinAssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZPoinAssignmentViewController.swift; sourceTree = "<group>"; };
+		5F860CC12A00DE6C00B0DB87 /* ZPoinAssignmentViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ZPoinAssignmentViewController.storyboard; sourceTree = "<group>"; };
 		CCD4A4E4D322C432FF34050D /* Pods-ProjectZ1App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectZ1App.release.xcconfig"; path = "Target Support Files/Pods-ProjectZ1App/Pods-ProjectZ1App.release.xcconfig"; sourceTree = "<group>"; };
 		E93FA4A2ABF05431E9609E15 /* Pods-ProjectZ1App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectZ1App.debug.xcconfig"; path = "Target Support Files/Pods-ProjectZ1App/Pods-ProjectZ1App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +113,18 @@
 				CCD4A4E4D322C432FF34050D /* Pods-ProjectZ1App.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F114C712A02100D0027D1BB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5F114C722A0210620027D1BB /* PresentationController.swift */,
+				5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */,
+				5F114C692A01FD5F0027D1BB /* ButtomShetMyQRCodeViewController.xib */,
+				5F114C6D2A020A620027D1BB /* ZpoinTableViewCell.swift */,
+				5F114C6E2A020A620027D1BB /* ZpoinTableViewCell.xib */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		5F1A5E6A29EE443B00E3025E = {
@@ -161,6 +185,7 @@
 		5F1A5EA329EE49FD00E3025E /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5F860CBC2A00DDC900B0DB87 /* ZPoinAssignment */,
 				5F77B75929EE8565006B9043 /* ZPoinAss */,
 				5F1A5EA429EE49FD00E3025E /* Home */,
 				5F1A5EAE29EE49FD00E3025E /* Favorites */,
@@ -318,6 +343,7 @@
 			children = (
 				5F1A5E7629EE443B00E3025E /* AppDelegate.swift */,
 				5F1A5E7829EE443B00E3025E /* SceneDelegate.swift */,
+				5F857BF32A0C984E00721ABD /* Z1BaseViewController.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -408,21 +434,45 @@
 		5F77B75929EE8565006B9043 /* ZPoinAss */ = {
 			isa = PBXGroup;
 			children = (
-				5FCB577D29F39F9D009DE3E9 /* Models */,
-				5F77B75A29EE8595006B9043 /* MyQRViewController.storyboard */,
-				5F77B75C29EE85A0006B9043 /* MyQRViewController.swift */,
-				5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewController.xib */,
-				5F64ED2C29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift */,
-				5F64ED2E29F316B6005B05DE /* PresentationController.swift */,
+				5F4CCB2429F310C100619357 /* ButtomShetMyQRCodeViewControllerdd.xib */,
 			);
 			path = ZPoinAss;
 			sourceTree = "<group>";
 		};
-		5FCB577D29F39F9D009DE3E9 /* Models */ = {
+		5F857BF52A0C99FE00721ABD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5F857BF62A0C9A0D00721ABD /* APICaller.swift */,
 			);
-			path = Models;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F860CBC2A00DDC900B0DB87 /* ZPoinAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				5F857BF52A0C99FE00721ABD /* Controller */,
+				5F114C712A02100D0027D1BB /* Component */,
+				5F860CBE2A00DE1000B0DB87 /* Model */,
+				5F860CBD2A00DE0A00B0DB87 /* View */,
+			);
+			path = ZPoinAssignment;
+			sourceTree = "<group>";
+		};
+		5F860CBD2A00DE0A00B0DB87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F860CBF2A00DE4B00B0DB87 /* ZPoinAssignmentViewController.swift */,
+				5F860CC12A00DE6C00B0DB87 /* ZPoinAssignmentViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F860CBE2A00DE1000B0DB87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F0C9A4D29F6315D00EDB61F /* MyQRViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		AE7B751E035773196ADA2AA4 /* Frameworks */ = {
@@ -492,15 +542,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F114C702A020A620027D1BB /* ZpoinTableViewCell.xib in Resources */,
 				5F1A5EFA29EE4A5F00E3025E /* SplashScreenViewController.storyboard in Resources */,
-				5F77B75B29EE8595006B9043 /* MyQRViewController.storyboard in Resources */,
 				5F1A5EDC29EE49FE00E3025E /* OnboardingScreenViewController.storyboard in Resources */,
 				5F1A5ED429EE49FE00E3025E /* ScanViewController.storyboard in Resources */,
 				5F1A5ED229EE49FE00E3025E /* FavoritesViewController.storyboard in Resources */,
 				5F1A5ED929EE49FE00E3025E /* MeViewController.storyboard in Resources */,
 				5F1A5ED629EE49FE00E3025E /* ZpoinViewController.storyboard in Resources */,
+				5F114C6A2A01FD5F0027D1BB /* ButtomShetMyQRCodeViewController.xib in Resources */,
 				5F1A5E8029EE443C00E3025E /* Assets.xcassets in Resources */,
-				5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewController.xib in Resources */,
+				5F860CC22A00DE6C00B0DB87 /* ZPoinAssignmentViewController.storyboard in Resources */,
+				5F4CCB2529F310C100619357 /* ButtomShetMyQRCodeViewControllerdd.xib in Resources */,
 				5F1A5ED029EE49FE00E3025E /* HomeViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,17 +592,19 @@
 				5F1A5ED829EE49FE00E3025E /* MeViewController.swift in Sources */,
 				5F1A5EDD29EE49FE00E3025E /* OnboardingScreenViewController.swift in Sources */,
 				5F1A5EF129EE4A3E00E3025E /* ShadowUIView.swift in Sources */,
-				5F64ED2F29F316B6005B05DE /* PresentationController.swift in Sources */,
 				5F1A5EDB29EE49FE00E3025E /* OnboardingCollectionViewCell.swift in Sources */,
 				5F1A5ECC29EE49FE00E3025E /* SlideHomePageCollectionViewCell.swift in Sources */,
+				5F114C6F2A020A620027D1BB /* ZpoinTableViewCell.swift in Sources */,
 				5F1A5EDA29EE49FE00E3025E /* MainTabbarViewController.swift in Sources */,
-				5F77B75D29EE85A0006B9043 /* MyQRViewController.swift in Sources */,
+				5F0C9A4E29F6315D00EDB61F /* MyQRViewModel.swift in Sources */,
 				5F64ED2D29F314F7005B05DE /* ButtomShetMyQRCodeViewController.swift in Sources */,
 				5F1A5EEF29EE4A3E00E3025E /* ShadowCardUIView.swift in Sources */,
 				5F1A5ED529EE49FE00E3025E /* ScanViewController.swift in Sources */,
 				5F1A5ECF29EE49FE00E3025E /* HomeViewController.swift in Sources */,
 				5F1A5ECD29EE49FE00E3025E /* MiniAppCollectionViewCell.swift in Sources */,
+				5F860CC02A00DE4B00B0DB87 /* ZPoinAssignmentViewController.swift in Sources */,
 				5F1A5ECE29EE49FE00E3025E /* CardCollectionViewCell.swift in Sources */,
+				5F857BF72A0C9A0D00721ABD /* APICaller.swift in Sources */,
 				5F1A5ED729EE49FE00E3025E /* ZpoinViewController.swift in Sources */,
 				5F1A5ED129EE49FE00E3025E /* MiniAppModel.swift in Sources */,
 				5F1A5EF029EE4A3E00E3025E /* UIView+Extension.swift in Sources */,
@@ -559,6 +613,8 @@
 				5F1A5EDE29EE49FE00E3025E /* OnboardingModel.swift in Sources */,
 				5F1A5EF929EE4A5F00E3025E /* SplashScreenViewController.swift in Sources */,
 				5F1A5E7929EE443B00E3025E /* SceneDelegate.swift in Sources */,
+				5F857BF42A0C984E00721ABD /* Z1BaseViewController.swift in Sources */,
+				5F114C732A0210620027D1BB /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
